@@ -252,18 +252,6 @@ MainTab:AddSlider({
 	end   
 })
 
-MainTab:AddSlider({
-    Name = "Hip height",
-    Min = -1.40,
-    Max = 100,
-    Default = -1.40,
-    Color = Color3.fromRGB(128, 128, 128),
-    Increment = 1,
-	ValueName = "Hip Height",
-    Callback = function(HipValue)
-        game.Players.LocalPlayer.Character.Humanoid.HipHeight = HipValue
-    end    
-})
 
 MainTab:AddSlider({
 	Name = "Fov Slider",
